@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <item name="none">0</item>
+    <item name="screen.on">60.7</item>
+    <item name="screen.full">217.41</item>
+    <item name="bluetooth.active">109</item>
+    <item name="bluetooth.on">0.8</item>
+    <item name="wifi.on">0.91</item>
+    <item name="wifi.active">50</item>
+    <item name="wifi.scan">97.9</item>
+    <item name="dsp.audio">46.1</item>
+    <item name="dsp.video">156</item>
+    <item name="camera.avg">273.1</item>
+    <item name="camera.flashlight">377.7</item>
+    <item name="radio.active">109.75</item>
+    <item name="radio.scanning">137</item>
+    <item name="gps.on">31</item>
+    <array name="radio.on">
+        <value>15</value>
+        <value>3.2</value>
+    </array>
+    <array name="cpu.speeds">
+        <value>200000</value>
+        <value>400000</value>
+        <value>533333</value>
+        <value>800000</value>
+        <value>998400</value>
+        <value>1094400</value>
+        <value>1152000</value>
+        <value>1209600</value>
+        <value>1363200</value>
+    </array>
+    <item name="cpu.idle">3</item>
+    <item name="cpu.awake">14.1</item>
+    <array name="cpu.active">
+        <value>20</value>
+        <value>33.1</value>
+        <value>45.15</value>
+        <value>64.9</value>
+        <value>115</value>
+        <value>129.3</value>
+        <value>151.5</value>
+        <value>162.9</value>
+        <value>210</value>
+    </array>
+    <item name="battery.capacity">2900</item>
+    <array name="wifi.batchedscan">
+        <value>.0002</value>
+        <value>.002</value>
+        <value>.02</value>
+        <value>.2</value>
+        <value>2</value>
+    </array>
+</device>
