@@ -39,5 +39,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12895622922 # (BOARD_USERDATAIMAGE_PARTITI
 # Properties
 TARGET_SYSTEM_PROP += device/bq/picmt/system.prop
 
+# SELinux
+BOARD_SEPOLICY_DIRS += device/bq/picmt/sepolicy
+
 # Inherit from the proprietary version
 -include vendor/bq/picmt/BoardConfigVendor.mk
