@@ -30,7 +30,7 @@ TARGET_OTA_ASSERT_DEVICE := piccolometal,picmt,Aquaris_X5
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/bq/picmt/bluetooth
 
 # CMHW
-BOARD_HARDWARE_CLASS := device/bq/picmt/cmhw/src
+BOARD_HARDWARE_CLASS += device/bq/picmt/cmhw/src
 TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/SMWP"
 
 # Filesystem
