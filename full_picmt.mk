@@ -1,6 +1,8 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
 #
+# Copyright (C) 2017 The LineageOS Project
+#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -18,7 +20,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/bq/common/bq_common.mk)
+$(call inherit-product, device/bq/msm8916-common/bq_common.mk)
 $(call inherit-product, device/bq/picmt/device.mk)
 $(call inherit-product-if-exists, vendor/bq/picmt/picmt-vendor.mk)
 
