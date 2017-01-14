@@ -20,12 +20,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/bq/common/bq_common.mk)
-$(call inherit-product, device/bq/picmt/device.mk)
-$(call inherit-product-if-exists, vendor/bq/picmt/picmt-vendor.mk)
+$(call inherit-product, device/bq/paella/device.mk)
+$(call inherit-product-if-exists, vendor/bq/paella/paella-vendor.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_DEVICE := picmt
-PRODUCT_NAME := full_picmt
+PRODUCT_DEVICE := paella
+PRODUCT_NAME := full_paella
 PRODUCT_BRAND := bq
 PRODUCT_MODEL := Aquaris X5
 PRODUCT_MANUFACTURER := bq

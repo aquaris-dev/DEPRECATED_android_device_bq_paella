@@ -6,10 +6,10 @@ TARGET_SCREEN_WIDTH := 720
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/bq/picmt/full_picmt.mk)
+$(call inherit-product, device/bq/paella/full_paella.mk)
 
 PRODUCT_RELEASE_NAME := Aquaris X5
-PRODUCT_NAME := lineage_picmt
+PRODUCT_NAME := lineage_paella
 
 # Set product device & name
 PRODUCT_BUILD_PROP_OVERRIDES += \

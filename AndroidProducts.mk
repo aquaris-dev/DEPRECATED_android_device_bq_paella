@@ -16,4 +16,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_picmt.mk
+    $(LOCAL_DIR)/full_paella.mk
