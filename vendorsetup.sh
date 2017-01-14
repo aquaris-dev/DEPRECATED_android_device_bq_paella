@@ -1,1 +1,1 @@
-add_lunch_combo cm_picmt-userdebug
+add_lunch_combo lineage_picmt-userdebug
